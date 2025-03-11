@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DialogueTree>
+  <Dialogue author="???" id="001" played="false">
+    <Message>
+      ..you. Hey, you! This is no time to be napping. Have you forgotten what you came here to do?!
+    </Message>
+    <Message nextID="003">
+      There's a Sapling up ahead. Quick, germinate it so you don't black out again!
+    </Message>
+  </Dialogue>
+  <Dialogue author="???" id="003" played="false">
+    <Condition>saplingLit == true</Condition>
+    <Message>
+      That'll keep you breathing for the time being. You're not my original guy under that mask, are ya? I guess he managed to pass on his job before kicking the bucket. What's your name?
+    </Message>
+    <Message>
+      ....
+    </Message>
+    <Message>
+      Looks like you're not much of a talker. That's alright, 'cuz I am. You can call me The Doctor. Well, technically, I'm the consciousness of the man who was known as The Doctor.
+    </Message>
+    <Message>
+      In case you haven't noticed, everything I know is in this radio device you're holding. I can hear what you hear, but most importantly, I've got a pretty good understanding of your location.
+    </Message>
+    <Message nextID="004">
+      Miraculously, the location satellites have still been working alright.
+    </Message>
+  </Dialogue>
+  <Dialogue author="The Doctor" id="004" played="false">
+    <Message>
+      Well, enough about that. I'm sure you know what my guy was set out to do. That is, to bring the plant on your back to Home Station. That's about, uh... 7000km from where you are right now.
+    </Message>
+    <Message>
+      The only way to travel that far without collapsing is to refuel your oxygen supply at least every 50km.
+    </Message>
+    <Message>
+      The previous guy found a way to do that by germinating Saplings with the plant's spores, but if you can find an old station or something, that's even better.
+    </Message>
+    <Message>
+      So that's my debrief. You understand the mission now?
+    </Message>
+    <Message>
+      ....
+    </Message>
+    <Message>
+      Right. I forgot you can't talk. Well, now that we've got a Sapling nearby, we better check your equipment to make sure he left you with all the necessities.
+    </Message>
+  </Dialogue>
+</DialogueTree>

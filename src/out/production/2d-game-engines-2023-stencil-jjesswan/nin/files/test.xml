@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Game>
+<Metadata/>
+<GameWorld>
+<GameObject h="5.0" id="player" w="5.0" x="53.0" y="114.99805135846705" zIndex="10">
+<Component behavior="DYNAMIC" id="COLLISION" shapeType="AAB"/>
+<Component currHealth="700" id="HEALTH" maxHealth="700"/>
+<Component b="0.0" g="0.0" h="5.0" id="MINI_MAP" r="1.0" w="5.0"/>
+<Component id="ANIMATION_SEQUENCE">
+<Animation id="ANIMATION_SINGLE" idleX="0.0" idleY="3.0" src="player_animations">
+<PosSequence x="1.0" y="3.0"/>
+<PosSequence x="2.0" y="3.0"/>
+</Animation>
+<Animation id="ANIMATION_SINGLE" idleX="0.0" idleY="2.0" src="player_animations">
+<PosSequence x="0.0" y="2.0"/>
+<PosSequence x="1.0" y="2.0"/>
+<PosSequence x="2.0" y="2.0"/>
+<PosSequence x="3.0" y="2.0"/>
+</Animation>
+<Animation id="ANIMATION_SINGLE" idleX="0.0" idleY="0.0" src="player_animations">
+<PosSequence x="1.0" y="0.0"/>
+<PosSequence x="2.0" y="0.0"/>
+</Animation>
+<Animation id="ANIMATION_SINGLE" idleX="1.0" idleY="1.0" src="player_animations">
+<PosSequence x="0.0" y="1.0"/>
+<PosSequence x="1.0" y="1.0"/>
+<PosSequence x="2.0" y="1.0"/>
+<PosSequence x="3.0" y="1.0"/>
+</Animation>
+</Component>
+<Component behavior="DYNAMIC" id="PHYSICS" mass="1.0" restitution="0.3"/>
+</GameObject>
+</GameWorld>
+</Game>
