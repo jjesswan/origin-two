@@ -1,5 +1,6 @@
-# Final: Origin Two
-Banner ID: B01645798
+# Origin Two
+## View demo here: [Origin Two Demo](https://youtu.be/7QmcOS-9124?si=Ni-ogwbAJkTW9gFy)
+
 
 ### Premise:
 My game is called “Origin Two (O2)”, a metroidvania style adventure game that follows a lone astronaut 
